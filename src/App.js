@@ -6,16 +6,17 @@ import Footer from "./components/Footer";
 import Mission from "./components/Mission";
 import Pricing from "./components/Pricing";
 
+
 function App() {
   return (
-    <div className="container">
+    <div className="md:container md:mx-auto">
      <Header />
      <About />
      <Brand />
      <Contact />
-     <Footer />
      <Mission />
      <Pricing />
+     <Footer />
     </div>
   );
 }
