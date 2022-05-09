@@ -1,8 +1,9 @@
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="App">
-     <h3>Tally Palace</h3>
+    <div className="container">
+     <Header />
     </div>
   );
 }
