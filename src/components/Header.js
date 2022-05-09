@@ -1,7 +1,10 @@
 
 const Header = () => {
   return (
-    <header>Smart Automation Strategic Systems</header>
+    <header>
+        <h2 className="text-3xl font-bold underline">Smart Automation Strategic Systems</h2>
+    </header>
+    
   )
 }
 
