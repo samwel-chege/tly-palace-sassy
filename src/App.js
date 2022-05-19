@@ -5,17 +5,19 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Mission from "./components/Mission";
 import Pricing from "./components/Pricing";
+import Team from "./components/Team";
 
 
 function App() {
   return (
-    <div className="md:container md:mx-auto">
+    <div className="">
      <Header />
-     <About />
+     {/* <About /> */}
      <Brand />
-     <Contact />
      <Mission />
+     <Team />
      <Pricing />
+     <Contact />
      <Footer />
     </div>
   );
