@@ -9,9 +9,10 @@ const Team = () => {
                         Professional team
                     </p>
                     <p class="text-center mb-12 text-xl font-normal text-cyan-500 dark:text-gray-200">
-                        Meet the best team in world
+                        Meet the best team in the world
                     </p>
-                    <div class="flex items-center flex-col md:flex-row justify evenly">
+                    <div className="sm:flex flex-wrap justify-center items-center text-center gap-8 flex items-center flex-col md:flex-row justify evenly">
+
                         <div class="p-4">
                             <div class="text-center mb-4 opacity-90">
                                 <a href="#" class="block relative">
@@ -22,7 +23,7 @@ const Team = () => {
                                 <p class="text-2xl text-amber-500 dark:text-white">
                                     Maureen Wanjiru
                                 </p>
-                                <p class="text-xl text-gray-500 dark:text-gray-200 font-light">
+                                <p class="text-xl text-cyan-500 dark:text-gray-200 font-light">
                                     CEO & Systems Strategist
                                 </p>
                                 <p class="text-md text-gray-500 dark:text-gray-400 max-w-xs py-4 font-light">
@@ -31,6 +32,7 @@ const Team = () => {
                             </div>
       
                         </div>
+
                         <div class="p-4">
                             <div class="text-center mb-4 opacity-90">
                                 <a href="#" class="block relative">
@@ -41,7 +43,7 @@ const Team = () => {
                                 <p class="text-2xl text-amber-500 dark:text-white">
                                     Antony Munyau
                                 </p>
-                                <p class="text-xl text-gray-500 dark:text-gray-200 font-light">
+                                <p class="text-xl text-cyan-500 dark:text-gray-200 font-light">
                                     Head of information Technology
                                 </p>
                                 <p class="text-md text-gray-500 dark:text-gray-400 max-w-xs py-4 font-light">
@@ -50,6 +52,7 @@ const Team = () => {
                             </div>
                            
                         </div>
+
                         <div class="p-4">
                             <div class="text-center mb-4 opacity-90">
                                 <a href="#" class="block relative">
@@ -60,7 +63,7 @@ const Team = () => {
                                 <p class="text-2xl text-amber-500 dark:text-white">
                                     Kevin Omaanya
                                 </p>
-                                <p class="text-xl text-blue-500 dark:text-gray-200 font-light">
+                                <p class="text-xl text-cyan-500 dark:text-gray-200 font-light">
                                     Head of marketing
                                 </p>
                                 <p class="text-md text-gray-500 dark:text-gray-400 max-w-xs py-4 font-light">
