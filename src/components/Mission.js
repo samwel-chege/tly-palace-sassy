@@ -4,14 +4,82 @@ const Mission = () => {
   return (
     <div>
       
-        <a href="#" class="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-          <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="https://unsplash.com/photos/oqStl2L5oxI" alt="img" />
-          <div class="flex flex-col justify-between p-4 leading-normal">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Mission</h5>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+      <div class="relative bg-white dark:bg-gray-800 p-4 bg-slate-200">
+        <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-12 lg:items-center">
+          <div class="lg:col-start-2 md:pl-20">
+            <h4 class="text-2xl leading-8 font-extrabold text-amber-600 dark:text-white tracking-tight sm:leading-9">
+              Our brand values
+            </h4>
+            <ul class="mt-10">
+              <li>
+                <div class="flex">
+                  <div class="flex-shrink-0">
+                    <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                      <svg width="20" height="20" fill="currentColor" class="h-6 w-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                        </path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="ml-4">
+                    <h5 class="text-lg leading-6 text-gray-900 dark:text-white font-bold">
+                      Accountability
+                    </h5>
+                    <p class="mt-2 text-base leading-6 text-gray-500 dark:text-gray-300">
+                      Know everything about your business in a single glance with your new dashboard.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="mt-10">
+                <div class="flex">
+                  <div class="flex-shrink-0">
+                    <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                      <svg width="20" height="20" fill="currentColor" class="h-6 w-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                        </path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="ml-4">
+                    <h5 class="text-lg leading-6 text-gray-900 dark:text-white font-bold">
+                      Simplicity
+                    </h5>
+                    <p class="mt-2 text-base leading-6 text-gray-500 dark:text-gray-300">
+                      All your orders in one place so you can manage your delivery, collection, asap and pre-orders in one place.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="mt-10">
+                <div class="flex">
+                  <div class="flex-shrink-0">
+                    <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                      <svg width="20" height="20" fill="currentColor" class="h-6 w-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
+                        </path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="ml-4">
+                    <h5 class="text-lg leading-6 text-gray-900 dark:text-white font-bold">
+                      Productivity
+                    </h5>
+                    <p class="mt-2 text-base leading-6 text-gray-500 dark:text-gray-300">
+                      Never miss a new order with notifications via your dashboard, by sound, and to your email and phone.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
-        </a>
+          <div class="mt-10 -mx-4 md:-mx-12 relative lg:mt-0 lg:col-start-1">
+            <img src="https://images.unsplash.com/photo-1548094990-c16ca90f1f0d?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870" alt="illustration" class="relative mx-auto shadow-lg rounded w-auto" />
+          </div>
+        </div>
+      </div>
 
+      
     </div>
   )
 }
